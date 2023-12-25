@@ -1,0 +1,31 @@
+{
+  "name": "bun-test-astro-template",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --open",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.5",
+    "bun-types": "latest",
+    "msw": "^2.0.11"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@astrojs/node": "^7.0.2",
+    "@happy-dom/global-registrator": "^12.10.3",
+    "astro": "^4.0.7",
+    "canvas-confetti": "^1.9.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
