@@ -1,4 +1,7 @@
 ---
-import ConfettiButton from '../components/ConfettiButton.astro'
+import { Component } from "../components/HelloWorld";
+import Counter from "../components/Counter";
 ---
-<ConfettiButton/>
+
+<Component message="hello ming" client:load />
+<Counter client:visible />

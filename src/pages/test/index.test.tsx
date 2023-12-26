@@ -1,4 +1,4 @@
-import { mock } from "bun:test";
+import { mock, test, expect } from "bun:test";
 
 const random = mock((multiplier: number) => multiplier * Math.random());
 
@@ -7,7 +7,6 @@ random(10);
 
 random.mock.calls;
 
-import { test, expect } from "bun:test";
 
 test("snapshot", () => {
   expect({ foo: "bar" }).toMatchSnapshot();
