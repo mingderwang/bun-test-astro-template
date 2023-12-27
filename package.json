@@ -29,6 +29,7 @@
     "@types/react-dom": "^18.2.18",
     "astro": "^4.0.7",
     "canvas-confetti": "^1.9.2",
+    "jose": "^5.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": ">=4.7.0 <=5.2.0"
