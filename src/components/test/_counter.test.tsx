@@ -1,6 +1,6 @@
 // counter.test.tsx
 import { fireEvent, render, screen, waitFor } from '@testing-library/react'
-import Counter from './Counter'
+import Counter from '../Counter'
 import { describe, expect, test } from 'bun:test'
 
 describe('App', () => {
