@@ -3,7 +3,7 @@ import { defineMiddleware } from "astro/middleware";
 import { TOKEN, PUBLIC_ROUTES } from "./constant";
 
 const secret = new TextEncoder().encode(import.meta.env.JWT_SECRET_KEY);
-
+console.log(secret)
 const verifyAuth = async (token?: string) => {
   if (!token) {
     return {
